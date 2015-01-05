@@ -76,6 +76,10 @@ th {
   color:#444;
 }
 
+th.title {
+  width: 40%;
+}
+
 .about {
   font-size: 16px;
   margin: 20px 0;
