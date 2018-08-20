@@ -1,3 +1,4 @@
 RewriteEngine On
+RedirectMatch 404 /\.git
 RewriteCond %{HTTP:X-Forwarded-SSL} !on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
